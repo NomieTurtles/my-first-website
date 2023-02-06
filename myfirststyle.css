@@ -1,3 +1,13 @@
+body.home-page{
+  margin: 0;
+  padding: 600;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-image: url(/home/nomie/Pictures/background-pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .navClass > ul{
   background-color: #5E5;
   color:#D8D;
@@ -71,5 +81,30 @@ img {
 
 .text {
 
-  padding-right: : 20px;
+  padding-left: : : 20px;
+}
+
+p.home-page-text {
+  color: lime;
+  margin-left: 50px;
+  background-color: white;
+  border-radius: 20px;
+  background:(43, 166, 203, 0.5 /* alpha value for background */);
+  padding: 0.5em 0.2em 0.8em 0.5em;
+  margin-right: 600px;
+}
+div.reasons-to-sub {
+  background-color: white;
+  float: left;
+  color:lime;
+  border-radius: 20px;
+
+  padding-left:0px;
+  margin-left: 50px;
+  margin-right:0px;
+}
+img.front-image{
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
 }

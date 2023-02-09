@@ -1,0 +1,196 @@
+
+.navClass > ul{
+  background-color: #5E5;
+  color:#D8D;
+  font-size:20px;
+  font-family: sans-serif;
+}
+.navClass > ul > li{
+  list-style-type: none;
+  display:inline-block;
+  padding:5px 25px;
+  position: relative;
+
+}
+.navClass > ul > li:hover{
+  background-color: #383838;
+}
+
+ul.sub-menu {
+  position:absolute;
+
+  background-color: #5E5;
+  list-style-type: none;
+  width: 180px;
+  padding-left: 0px;
+  margin-left: -25px;
+  padding-top: 5px;
+  opacity:0 ;
+}
+ul.sub-menu {
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5PX;
+}
+
+.navClass li:hover .sub-menu{
+  opacity: 1;
+}
+ul.sub-menu li:hover{
+  color: white;
+  background-color:#656565;
+}
+
+img {
+  max-width: 100%
+}
+
+
+.text {
+
+  padding-left: : : 20px;
+}
+ /*homepage*/
+ body.home-page{
+   margin: 0;
+   padding: 600;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   background-image: url(imgs/background-pic.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ }
+p.home-page-text {
+  color: lime;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.5em 0.2em 0.8em 0.5em;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 90%;
+  z-index:-3;
+}
+div.reasons-to-sub {
+  background-color: white;
+  color:lime;
+  border-radius: 20px;
+  padding: 0.5em 0.2em 0.8em 0.5em;
+  width: 24%;
+  position: relative;
+  top: -650px;
+  left: 20px;
+
+}
+img.front-image{
+  border-radius: 60px;
+  border: solid;
+  border-color: lime;
+  width: 500px;
+  position: relative;
+  top: 40px;
+  left: 500px;
+}
+div.things-to-not-say{
+  background-color: white;
+  color:lime;
+  border-radius: 20px;
+  padding: 0.5em 0.2em 0.8em 0.5em;
+  width: 24%;
+  position: relative;
+  top: -600px;
+  left: 20px;
+}
+div.prostitute{
+  background-color: white;
+  border: solid;
+  border-color: lime;
+  color:lime;
+  border-radius: 20px;
+  color: red;
+  width: 30%;
+  position:relative;
+  top: -800px;
+  left: 1200px;
+}
+/*im not a proituitute link*/
+body.fuck-you-pay-me{
+  background-image: url(/home/nomie/Pictures/fuck-you-pay-me.jpg);
+  margin: 0;
+  padding: 600;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+}
+h1.fuck-you-text{
+  margin-left: 20px;
+  font-size: 300%;
+  position: center;
+}
+
+/* hot tubs for depression*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 50%
+}
+
+.image {
+  flex-basis: 40%;
+  margin-left:0px;
+  margin-right: -300px;
+  width: 1500px;
+}
+
+.text {
+  padding-left: 20px;
+  margin-top: -1000px;
+  margin-right: -200px;
+}
+div.skelton{
+  width: 900px;
+  margin-left:1350px;
+  margin-top: -600px;
+}
+h2.skelton-text{
+  float: right;
+    width: 300px;
+margin-top: -300px;
+margin-right:470px;
+}
+
+/* ed therapy*/
+div.ED-text{
+  float: right;
+  margin-top:-400px;
+  font-size: 30px;
+}
+.container-1 {
+  display: flex;
+  align-items: right;
+  justify-content: center;
+}
+div.star-pic {
+  flex-basis: 40%;
+  float:right;
+  margin-left: 500px;
+  width: 800px;
+  height: auto;
+
+}
+div.ed-paragraph{
+  float: left;
+}
+
+/* drugs for humanity*/
+ div.drug-text{
+   margin-left: 300px;
+ }

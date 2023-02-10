@@ -1,13 +1,4 @@
-body.home-page{
-  margin: 0;
-  padding: 600;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  background-image: url(imgs/background-pic.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+
 .navClass > ul{
   background-color: #5E5;
   color:#D8D;
@@ -70,12 +61,6 @@ img {
    background-repeat: no-repeat;
    background-attachment: fixed;
  }
- div.homepage-container{
-   display: flex;
-   width:100%;
-       min-width:1000px;
-       height:auto;
- }
 p.home-page-text {
   color: lime;
   background-color: white;
@@ -86,14 +71,13 @@ p.home-page-text {
   left: 20px;
   width: 90%;
   z-index:-3;
-
 }
 div.reasons-to-sub {
   background-color: white;
   color:lime;
   border-radius: 20px;
   padding: 0.5em 0.2em 0.8em 0.5em;
-  width: 27%;
+  width: 24%;
   position: relative;
   top: -650px;
   left: 20px;
@@ -106,14 +90,14 @@ img.front-image{
   width: 500px;
   position: relative;
   top: 40px;
-  left: 600px;
+  left: 500px;
 }
 div.things-to-not-say{
   background-color: white;
   color:lime;
   border-radius: 20px;
   padding: 0.5em 0.2em 0.8em 0.5em;
-  width: 27%;
+  width: 24%;
   position: relative;
   top: -600px;
   left: 20px;

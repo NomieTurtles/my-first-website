@@ -1,13 +1,4 @@
-body.home-page{
-  margin: 0;
-  padding: 600;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  background-image: url(imgs/background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+
 .navClass > ul{
   background-color: #5E5;
   color:#D8D;
@@ -19,6 +10,7 @@ body.home-page{
   display:inline-block;
   padding:5px 25px;
   position: relative;
+
 }
 .navClass > ul > li:hover{
   background-color: #383838;
@@ -26,6 +18,7 @@ body.home-page{
 
 ul.sub-menu {
   position:absolute;
+
   background-color: #5E5;
   list-style-type: none;
   width: 180px;
@@ -58,24 +51,43 @@ img {
   padding-left: : : 20px;
 }
  /*homepage*/
+ body.home-page{
+   margin: 0;
+   padding: 600;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   background-image: url(imgs/background-pic.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ }
+ div.homepage-container{
+   display: flex;
+   width:100%;
+       min-width:1000px;
+       height:auto;
+ }
 p.home-page-text {
   color: lime;
-  margin-left: 50px;
   background-color: white;
   border-radius: 20px;
-  background:(43, 166, 203, 0.5 /* alpha value for background */);
   padding: 0.5em 0.2em 0.8em 0.5em;
-  margin-right: 600px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 90%;
+  z-index:-3;
+
 }
 div.reasons-to-sub {
   background-color: white;
-  float: left;
   color:lime;
   border-radius: 20px;
-
-  padding-left:0px;
-  margin-left: 50px;
-  margin-right:0px;
+  padding: 0.5em 0.2em 0.8em 0.5em;
+  width: 27%;
+  position: relative;
+  top: -650px;
+  left: 20px;
 
 }
 img.front-image{
@@ -83,34 +95,32 @@ img.front-image{
   border: solid;
   border-color: lime;
   width: 500px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  border-width: thick;
+  position: relative;
+  top: 40px;
+  left: 600px;
 }
 div.things-to-not-say{
   background-color: white;
   color:lime;
   border-radius: 20px;
   padding: 0.5em 0.2em 0.8em 0.5em;
-  padding-left:0px;
-  margin-left: 50px;
-  margin-right:1350px;
-  margin-top: -400px;
+  width: 27%;
+  position: relative;
+  top: -600px;
+  left: 20px;
 }
 div.prostitute{
   background-color: white;
   border: solid;
   border-color: lime;
-  float: right;
   color:lime;
   border-radius: 20px;
   color: red;
-  padding-left:0px;
-  margin-left: 0px;
-  margin-right:120px;
-  margin-top: -100px;
+  width: 30%;
+  position:relative;
+  top: -800px;
+  left: 1200px;
 }
-
 /*im not a proituitute link*/
 body.fuck-you-pay-me{
   background-image: url(/home/nomie/Pictures/fuck-you-pay-me.jpg);
